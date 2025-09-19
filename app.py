@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import os, io, re, datetime
-from slugify import slugify
+import slugify from slugify 
 import psycopg2
 
 st.set_page_config(page_title="Processo Seletivo - Saúde", page_icon="🩺", layout="centered")
@@ -255,3 +255,4 @@ if enviado:
         st.success("✅ Inscrição enviada com sucesso!")
         st.info(f"Protocolo: **{protocolo}**")
         st.write("Guarde seu protocolo. Você receberá comunicações pelo e-mail/telefone informados.")
+
