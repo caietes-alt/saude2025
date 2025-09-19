@@ -1,0 +1,4 @@
+streamlit
+pandas
+python-slugify
+psycopg2-binary
